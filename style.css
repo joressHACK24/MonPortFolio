@@ -1,0 +1,305 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    .titleNavbar{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .navigationNavbar{
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .navigationNavbar a{
+        text-decoration: none;
+        color: black;
+    }
+    .titleBanner{
+
+        font-weight: bold;
+        text-align: center;
+    }
+    .paragraphBanner{
+        text-align: center;
+        font-weight: inherit;
+        font-size: 15px;
+        opacity: 50%;
+    }
+    .features{
+        display: flex;
+        flex-direction:column;
+        padding: 0%;
+        margin: 0%;
+        
+    }
+    .projects{
+        list-style: none;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .listProject{
+        list-style: none;
+        padding-left: 0%;
+        padding-bottom: 0%;
+        margin: 0;
+        background-color: rgb(221, 232, 245) ; ;
+        
+    
+    }
+    .listProjectItems h2{
+        border-bottom: 0.5px solid;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+    }
+    .listProject a{
+        text-decoration: none;
+    }
+    .listProjectItems{
+    
+    padding: 5px 0 25px 0;
+        border: 0.5px solid;
+    }
+    .WorkExperience{
+        
+        list-style: none;
+        padding: 0%;
+        margin: 0;
+    }
+    .listWorkExperince{
+        
+        list-style: none;
+        border: 0.5px solid;
+        margin: 0%;
+        padding: 0%
+        
+    }
+    .listWorkExperienceItems{
+        margin: 0;
+        border-bottom: 0.5px solid;
+        padding: 5px ;
+    }
+    .listWorkExperince a{
+        text-decoration: none;
+    }
+    .listWorkExperince li h2{
+        border-bottom: 0.5px solid;
+        background-color: white;
+        padding: 0%;
+        margin: 0%;
+    }
+    .listWorkExperince {
+        background-color: rgb(221, 232, 245) ;
+    }
+    #lastexp{
+        border: none;
+    }
+    .Education{
+    border:1px solid ;
+    margin: 0;
+    
+    }
+    .listEducation{
+    
+        padding: 5px;
+    }
+    .listEducation h2{
+    
+        text-align: center;
+    }
+    .containerh2{
+        text-align: center;
+    }
+    .containerdiv{
+    
+    }
+    .containerdiv1{
+        border: 1px solid;
+        border-radius: 40px;
+        padding: 18px 30px 18px 40px;
+    
+        white-space: nowrap;
+    }
+
+    .containerdiv2{
+    
+        display: none;
+    }
+    .containerdiv3{
+        
+        display: none;
+    }
+    .containerP{
+        opacity: 50%;
+    }
+    .paragraphFacebook{
+        text-align: center;
+    }
+    .ligne1{
+        display: unset;
+    }
+    br{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+.titleNavbar{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 100px;
+}
+.ligne1{
+    display: none;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+.navigationNavbar{
+    padding-top: 26px;
+    padding-left: 20cm;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    float: right;
+    margin: 0%;
+    
+}
+.navigationNavbar li {
+    padding: 0 5px 0 5px;
+
+}
+.navigationNavbar a {
+    text-decoration: none;
+    color: black;
+}
+.Banner{
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    padding-top:40px; 
+}
+.titleBanner{
+
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+.paragraphBanner{
+    text-align: center;
+    font-weight: inherit;
+    font-size: 15px;
+    opacity: 50%;
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.projects{
+    border: 3px solid;
+    list-style: none;
+}
+.listProject{
+    list-style: none;
+    padding-left: 0%;
+    padding-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.listProject a{
+    text-decoration: none;
+}
+.listProjectItems{
+    padding: 30px;
+    padding-right: 40px;
+    border: 0.5px solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    
+}
+.WorkExperience{
+    border: 3px solid;
+    border-left: none;
+    list-style: none;
+
+}
+.listWorkExperince{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0%;
+    padding-bottom: 0%;
+    border-left: none;
+    list-style: none;
+    
+}
+.listWorkExperienceItems{
+    border-bottom: 1px solid;
+    padding: 41px;
+    
+}
+.listWorkExperince a{
+    text-decoration: none;
+}
+#last{
+    border-bottom: none;
+
+}
+.Education{
+
+    border: 3px solid;
+    border-left: none;
+}
+.listEducation{
+    padding: 66px;
+    
+}
+.containerh2{
+    padding-left: 197px ;
+}
+.containerdiv{
+    display: flex;
+    flex-direction: row;
+}
+.containerdiv1{
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 18px 30px 18px 40px;
+    margin-left: 230px;
+    
+}
+.containerdiv2{
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 18px 30px 18px 40px;
+    margin-left: 60px;
+    
+}
+.containerdiv3{
+    border: 1px solid;
+    border-radius: 40px;
+    padding: 18px 30px 18px 40px;
+    margin-left: 60px;
+    
+}
+.containerP{
+    opacity: 50%;
+}
+.paragraphFacebook{
+    margin: 50px;
+    text-align: center;
+}
+}
